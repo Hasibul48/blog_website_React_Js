@@ -1,0 +1,13 @@
+.TesxWrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.CtextWrapper {
+    line-height: 30px;
+    margin-top: 47px;
+}
+
+.carousel_control_prev_icon {
+    color: black;
+}
