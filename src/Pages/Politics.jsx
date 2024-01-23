@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BlogCard from './Component/BlogCard';
+import Newsletter from './Component/Newsletter';
 function Politics(props) {
     const { postData } = props;
 
@@ -30,6 +31,8 @@ function Politics(props) {
                     {items}
                 </div>
             </div>
+
+            <Newsletter />
         </>
     )
 }

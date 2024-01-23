@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BlogCard from './Component/BlogCard';
+import Newsletter from './Component/Newsletter';
 function Entertainment(props) {
 
     const { postData } = props;
@@ -27,6 +28,8 @@ function Entertainment(props) {
                     {items}
                 </div>
             </div>
+
+            <Newsletter />
         </>
     )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 
 import Carousel from './Component/Carousel'
 import BlogCard from './Component/BlogCard'
+import Newsletter from './Component/Newsletter';
 
 
 function Home(props) {
@@ -28,7 +29,7 @@ function Home(props) {
                 </div>
             </div>
 
-
+            <Newsletter />
         </>
     )
 }

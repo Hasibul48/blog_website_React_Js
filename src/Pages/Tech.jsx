@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BlogCard from './Component/BlogCard';
+import Newsletter from './Component/Newsletter';
 function Tech(props) {
 
     const { postData } = props;
@@ -27,6 +28,7 @@ function Tech(props) {
                     {items}
                 </div>
             </div>
+            <Newsletter />
         </>
     )
 }

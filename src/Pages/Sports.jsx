@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BlogCard from './Component/BlogCard';
+import Newsletter from './Component/Newsletter';
 function Sports(props) {
 
     const { postData } = props;
@@ -28,6 +29,7 @@ function Sports(props) {
                     {items}
                 </div>
             </div>
+            <Newsletter />
         </>
     )
 }

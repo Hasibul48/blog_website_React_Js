@@ -40,7 +40,7 @@ function BlogCard(props) {
                                 </div>
                             </div>
                         </div>
-                        <p class="card-text">{desc}</p>
+                        <p className="card-text">{desc}</p>
 
                         <a href="#">Read More</a>
 

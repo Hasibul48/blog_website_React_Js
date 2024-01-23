@@ -8,12 +8,12 @@ function Carousel() {
             <div className="container">
 
                 <div className={style.TesxWrapper}>
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                    <div id="carouselExample" className="carousel slide">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sefBvbNKULTCD8IpqksQRXurQSA7sY-gY1aeerW2WS5uIVioko4SV54Nc_A5O0dZ_Ic&usqp=CAU" class="d-block w-100" alt="..." />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sefBvbNKULTCD8IpqksQRXurQSA7sY-gY1aeerW2WS5uIVioko4SV54Nc_A5O0dZ_Ic&usqp=CAU" className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="col-md-6">
                                         <div className={`${style.CtextWrapper}`}>
@@ -27,10 +27,10 @@ function Carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sefBvbNKULTCD8IpqksQRXurQSA7sY-gY1aeerW2WS5uIVioko4SV54Nc_A5O0dZ_Ic&usqp=CAU" class="d-block w-100" alt="..." />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeye05RVfDhRWo4UBkKNwSHsPJiLb18lZwQ4dxmFj4M-tRLCdh3i6LM7QLdoo-OCzjyRk&usqp=CAU" className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="col-md-6">
                                         <div className="CtextWrapper mt-5">
@@ -44,10 +44,10 @@ function Carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sefBvbNKULTCD8IpqksQRXurQSA7sY-gY1aeerW2WS5uIVioko4SV54Nc_A5O0dZ_Ic&usqp=CAU" class="d-block w-100" alt="..." />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxwNvJmR-V5h74QB-mH6QK4Rheh1tdw6XPirtF4xhfg&s" className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="col-md-6">
                                         <div className="CtextWrapper mt-5">
@@ -69,7 +69,7 @@ function Carousel() {
                         <button style={{
                             marginRight: '-120px',
                             transform: 'scale(1.8)'
-                        }} class="carousel-control-next" data-bs-target="#carouselExample" data-bs-slide="next">
+                        }} className="carousel-control-next" data-bs-target="#carouselExample" data-bs-slide="next">
                             <img src="img/arrowKeys/arrow-right.svg" alt="" />
                         </button>
                     </div>
