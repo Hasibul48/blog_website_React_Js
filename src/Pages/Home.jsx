@@ -3,6 +3,7 @@ import React from 'react'
 import Carousel from './Component/Carousel'
 import BlogCard from './Component/BlogCard'
 import Newsletter from './Component/Newsletter';
+import HowDoesItWork from './Component/HowDoesItWork';
 
 
 function Home(props) {
@@ -21,7 +22,7 @@ function Home(props) {
             <Carousel />
             <br />
             <br />
-            <br />
+            <HowDoesItWork />
             <div className="container">
                 <div className="row">
                     {/* {postData && postData.map((item) => <BlogCard key={postData.it} title={item.title} desc={item.body} />)} */}

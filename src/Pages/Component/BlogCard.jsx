@@ -26,7 +26,7 @@ function BlogCard(props) {
                     width: '100%',
                     marginTop: '2.2rem'
                 }}>
-                    <img src="img/Card_Images/cardImg.jpg" class="card-img-top" />
+                    <img src="img/Card_Images/cardImg.jpg" class="card-img-top" alt='' />
                     <div class="card-body">
                         <h3 class="card-title">{title}</h3>
                         <div className="userId mb-2 mt-4" style={{ display: 'flex' }}>
@@ -42,7 +42,7 @@ function BlogCard(props) {
                         </div>
                         <p className="card-text">{desc}</p>
 
-                        <a href="#">Read More</a>
+                        <a href="/not">Read More</a>
 
                     </div>
                 </div>

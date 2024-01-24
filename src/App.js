@@ -15,7 +15,6 @@ import Entertainment from './Pages/Entertainment';
 import Travel from './Pages/Travel';
 import Sports from './Pages/Sports';
 import Page404 from './Pages/Page404';
-import Newsletter from './Pages/Component/Newsletter';
 
 function App() {
 

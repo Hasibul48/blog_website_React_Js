@@ -30,12 +30,12 @@ function Carousel() {
                             <div className="carousel-item">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeye05RVfDhRWo4UBkKNwSHsPJiLb18lZwQ4dxmFj4M-tRLCdh3i6LM7QLdoo-OCzjyRk&usqp=CAU" className="d-block w-100" alt="..." />
+                                        <img src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=600" className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="col-md-6">
                                         <div className="CtextWrapper mt-5">
-                                            <span>Editor's Pick</span>
-                                            <h2>Blogging is my Passion</h2>
+                                            <span>Blogger's Pick</span>
+                                            <h2>Blog for slide two</h2>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum sint ducimus perspiciatis reprehenderit sed esse dolor eos corporis facilis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum sint ducimus perspiciatis reprehenderit sed esse dolor eos corporis facilis</p>
                                             <br />
                                             <p style={{ fontWeight: '500', fontSize: '18px' }}>Hasibul's Blog</p>
@@ -47,13 +47,13 @@ function Carousel() {
                             <div className="carousel-item">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoxwNvJmR-V5h74QB-mH6QK4Rheh1tdw6XPirtF4xhfg&s" className="d-block w-100" alt="..." />
+                                        <img src="https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=600" className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="col-md-6">
                                         <div className="CtextWrapper mt-5">
                                             <span>Editor's Pick</span>
-                                            <h2>Blogging is my Passion</h2>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum sint ducimus perspiciatis reprehenderit sed esse dolor eos corporis facilis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum sint ducimus perspiciatis reprehenderit sed esse dolor eos corporis facilis</p>
+                                            <h2>A passonate blogger</h2>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quos, error nihil doloremque ab illum fugit amet cupiditate hic officia!</p>
                                             <br />
                                             <p style={{ fontWeight: '500', fontSize: '18px' }}>Hasibul Blog</p>
                                             <p>Date: 21/1/2024</p>
