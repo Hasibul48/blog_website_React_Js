@@ -15,6 +15,7 @@ import Entertainment from './Pages/Entertainment';
 import Travel from './Pages/Travel';
 import Sports from './Pages/Sports';
 import Page404 from './Pages/Page404';
+import All_Blogs from './Pages/All_Blogs';
 
 function App() {
 
@@ -42,6 +43,8 @@ function App() {
           <Route path="/travel" element={postData && <Travel postData={postData} />} />
           <Route path="/sports" element={postData && <Sports postData={postData} />} />
           <Route path='*' element={<Page404 />} />
+
+          <Route path='/all_blogs' element={postData && <All_Blogs postData={postData} />} />
 
         </Routes>
 
