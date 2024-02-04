@@ -22,13 +22,13 @@ function BlogCard(props) {
 
 
             <div className="col-md-4" style={{ transform: 'scale(.9)' }}>
-                <div class="card" style={{
+                <div className="card" style={{
                     width: '100%',
                     marginTop: '2.2rem'
                 }}>
-                    <img src="img/Card_Images/cardImg.jpg" class="card-img-top" alt='' />
-                    <div class="card-body">
-                        <h3 class="card-title">{title}</h3>
+                    <img src="img/Card_Images/cardImg.jpg" className="card-img-top" alt='' />
+                    <div className="card-body">
+                        <h3 className="card-title">{title}</h3>
                         <div className="userId mb-2 mt-4" style={{ display: 'flex' }}>
 
                             <h5>{name}</h5><span>{` -  ${Pdate}`}</span>

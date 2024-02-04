@@ -13,7 +13,7 @@ function Home(props) {
     let items = [];
     let i;
     for (i = 0; i < 9; i++) {
-        items.push(<BlogCard title={postData[i].title} desc={postData[i].description} name={postData[i].personName} Pdate={postData[i].date} category={postData[i].category} />)
+        items.push(<BlogCard key={i} title={postData[i].title} desc={postData[i].description} name={postData[i].personName} Pdate={postData[i].date} category={postData[i].category} />)
     }
     return (
         <>

@@ -11,7 +11,7 @@ function All_Blogs(props) {
 
     let items = [];
     for (let i = (pageNumber * blogsPerPage) - blogsPerPage; i < pageNumber * blogsPerPage; i++) {
-        postData[i] && items.push(<BlogCard title={postData[i].title} desc={postData[i].description} name={postData[i].personName} Pdate={postData[i].date} category={postData[i].category} />)
+        postData[i] && items.push(<BlogCard key={i} title={postData[i].title} desc={postData[i].description} name={postData[i].personName} Pdate={postData[i].date} category={postData[i].category} />)
     };
 
     const handlePageNumber = (e) => {

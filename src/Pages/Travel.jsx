@@ -13,7 +13,7 @@ function Travel(props) {
 
         if (postData[i].category === 'Travel') {
 
-            items.push(<BlogCard title={postData[i].title} desc={postData[i].description} name={postData[i].personName} Pdate={postData[i].date} category={postData[i].category} />);
+            items.push(<BlogCard key={i} title={postData[i].title} desc={postData[i].description} name={postData[i].personName} Pdate={postData[i].date} category={postData[i].category} />);
 
             category = postData[i].category;
         }
