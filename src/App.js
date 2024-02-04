@@ -16,6 +16,7 @@ import Travel from './Pages/Travel';
 import Sports from './Pages/Sports';
 import Page404 from './Pages/Page404';
 import All_Blogs from './Pages/All_Blogs';
+import Pagination from './Pages/Component/Pagination';
 
 function App() {
 
@@ -28,7 +29,6 @@ function App() {
     //   .then(json => setPostdata(json))
     setPostdata(Data);
   }, []);
-
   return (
     <>
       <BrowserRouter>
