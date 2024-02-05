@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Pagination(props) {
     const [crrPage, setCrrPage] = useState(1);
-    const [blogsPerPage, setBlogsPerPage] = useState(15);
+    const [blogsPerPage] = useState(15);
     const { postData, handlePageNumber, handleBlogsPerPage } = props;
     handlePageNumber(crrPage);
     handleBlogsPerPage(blogsPerPage);
