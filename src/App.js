@@ -14,7 +14,7 @@ import Tech from './Pages/Tech';
 import Entertainment from './Pages/Entertainment';
 import Travel from './Pages/Travel';
 import Sports from './Pages/Sports';
-import Page404 from './Pages/Page404';
+import Page404 from './Pages/404';
 import ALL_BLOGS from './Pages/All_Blogs';
 
 function App() {
