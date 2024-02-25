@@ -17,13 +17,20 @@ function Home(props) {
     }
     return (
         <>
-
             <br />
             <br />
             <Carousel />
             <br />
             <br />
             <HowDoesItWork />
+
+            <div className="container">
+                <div className="alert alert-danger alert-dismissible fade show" role="alert">
+                    This Website isn't Responsive yet!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+
             <div className="container">
                 <div className="row">
                     {/* {postData && postData.map((item) => <BlogCard key={postData.it} title={item.title} desc={item.body} />)} */}
