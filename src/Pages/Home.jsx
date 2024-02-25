@@ -23,7 +23,7 @@ function Home(props) {
             <br />
             <br />
             <HowDoesItWork />
-
+            <br />
             <div className="container">
                 <div className="alert alert-danger alert-dismissible fade show" role="alert">
                     This Website isn't Responsive yet!
